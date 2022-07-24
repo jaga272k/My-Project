@@ -1,0 +1,53 @@
+body{
+	background-color:#bed6e8;
+}
+.top{
+	position:absolute;
+	height:75px;
+	width:99%;
+	background-color:#3a96ce;
+}
+
+.top h1{
+	position:absolute;
+	left : 12%;
+	color: black;
+}
+
+img {
+	position:absolute;
+	top:15%;
+	left: 15%;
+}
+
+.one h1{
+	position:absolute;
+	top: 30%;
+	left: 15%;
+	font-size: 1.5em;
+}
+
+.one p{
+	position:absolute;
+	top:35%;
+	left: 15%;
+}
+.table1 table{
+	position:absolute;
+	top:45%;
+	left: 15%;
+	width: 50%;
+  border-collapse: collapse;
+}
+
+.table2 table{
+	position:absolute;
+	top:60%;
+	left: 15%;
+	width: 50%;
+  border-collapse: collapse;
+}
+
+table, td{
+  padding: 5px;
+}

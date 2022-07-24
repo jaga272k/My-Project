@@ -1,0 +1,67 @@
+ input[type=submit]
+{
+	border: none;
+	padding: 8px 15px 8px 15px;
+	background: #FF8500;
+	color: #fff;
+	box-shadow: 1px 1px 4px #DADADA;
+	-moz-box-shadow: 1px 1px 4px #DADADA;
+	-webkit-box-shadow: 1px 1px 4px #DADADA;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+ input[type=submit]:hover
+{
+	background: #EA7B00;
+	color: #fff;
+}
+
+ input[type=submit]{
+	position:relative;
+	left:5%;
+	width:70px;
+}
+
+.mobile{
+	margin-top:5%;
+}
+
+input.input-field
+{
+	height:40px;
+}
+ input.input-field,
+ .textarea-field
+ {
+	margin-top:40px;
+	margin-left:25%;
+	width: 30%;
+		
+}
+ input.input-field,
+ input.textarea-field
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px #EBEBEB;
+	-moz-box-shadow: 1px 1px 4px #EBEBEB;
+	-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 12px;
+	outline: none;
+}
+
+ .textarea-field{
+	 height:100px;
+ }
+ .input-field:focus,
+ .textarea-field:focus
+ {
+	border: 1px solid #0C0;
+
+}

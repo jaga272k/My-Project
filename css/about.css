@@ -1,0 +1,96 @@
+.about {
+	position: relative;
+	top: 10%;
+	height: 12%;
+	width: 100%;
+    background: #3a96ce;
+}
+
+.about h1{
+	font-family: Sans-serif;
+	position: absolute;
+	top: 3%;
+	left: 7%;
+	color: white;
+	
+}
+.para_1 p#para1{
+	position: absolute;
+	top: 45%;
+	left:7%;
+	width:80%;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.para_1 p#para2{
+	position: absolute;
+	top: 55%;
+	left:7%;
+	width:80%;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.para_2 h1{
+	position: absolute;
+	top: 65%;
+	left:7%;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.para_2 p{
+	position: absolute;
+	top: 70%;
+	left:7%;
+	width:80%;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;	
+}
+
+.para_3 h1{
+	position: absolute;
+	top: 78%;
+	left:7%;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.para_3 p{
+	position: absolute;
+	top: 83%;
+	left:7%;
+	width:80%;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.para_4 h1{
+	position: absolute;
+	top: 92%;
+	left:7%;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.para_4 ul{
+	position: absolute;
+	top: 30px;
+	width:700px;
+	height: 200px;
+	left:7%;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+	font-weight:normal;
+}

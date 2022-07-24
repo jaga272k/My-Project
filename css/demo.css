@@ -1,0 +1,53 @@
+body{
+	background-color:#e3e9f7;
+}
+
+.image1{
+	margin-top:5%;
+	margin-left:30px;
+	
+}
+
+.image1 img,
+.image3 img{
+	margin-left:30px;
+}
+
+.image2{
+	margin-top:5%;
+	margin-left:40%;
+	
+	
+}
+
+.image3{
+	margin-top:10%;
+	margin-left:30px;
+}
+
+.image4{
+	
+	margin-top:5%;
+	margin-left:40%;
+	
+}
+
+.image2 #left,
+.image4 #left{
+	text-align:;
+	margin-right:100px;
+}
+
+
+.video1{
+	margin-top: 100px;
+}
+
+.video2{
+	margin-top:100px;
+}
+
+.video1 video,
+.video2 video{
+	margin-left:100px;
+}

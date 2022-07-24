@@ -1,0 +1,44 @@
+
+table{
+	position: absolute;
+	top:90%;
+	
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-collapse: collapse;
+	width:85%;
+	height:auto;
+	border: 1px solid #bdc3c7;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+	
+	
+}
+tr{
+	transition: all .2s ease-in;
+	cursor: pointer;
+}
+
+th,td{
+	padding: 17px;
+	text-align: left;
+	border-bottom: 2px solid #ddd;
+}
+#head {
+	   background-color: #3a96ce;
+	   color:#fff;
+}
+
+tr:hover{
+	background-color:#f5f5f5;
+	transform: scale(1.02);
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+  
+.head h1{
+	position: absolute;
+	top: 33%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color:#666633;
+}  
+

@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 16px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.login-logo img{
+	border-radius: 50%;
+	position: fixed;
+	top: 10%;
+	right: 8%;
+}
+
+.img1{
+	position: fixed;
+	bottom: 16%;
+	left: 7%;
+}
+
+.img2{
+	position: fixed;
+	bottom: 16%;
+	left: 26%;
+}
+
+.img3{
+	position: fixed;
+	bottom: 16%;
+	left: 45%;
+}
+
+.img4{
+	position: fixed;
+	bottom: 16%;
+	left: 64%;
+}
+
+.img5{
+	position: fixed;
+	bottom: 16%;
+	left: 82%;
+}
+
+marquee {
+        width: 100%;
+        padding: 8px 0;
+        background-color: lightgreen;
+	
+      }
+	  
+
+h4 {
+  position: fixed;
+  font-size: 25px;
+  right: 36%;
+  top: 15%;
+   color: white;
+  
+}
+h3 a {
+  position: fixed;
+  font-size: 20px;
+  right: 20%;
+  top: 20%;
+   color: white;
+  
+}
+h2 a {
+  position: fixed;
+  font-size: 20px;
+  right: 20%;
+  top: 13%;
+   color: white;
+  
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  
+ 
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 25px;
+}
+
+/* Style the footer */
+footer {
+	position: sticky;
+	top: 100%;
+  background-color: #777;
+  padding: 8px;
+  text-align: center;
+  color: white;
+}
+
+/* logo of the site*/
+.logo{
+	 -webkit-flex: 3;
+  -ms-flex: 3;
+	position: fixed;
+	left: 10%;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}

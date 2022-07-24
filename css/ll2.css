@@ -1,0 +1,208 @@
+body{
+	
+}
+.nav-area2 a {
+	
+	width:200px;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.nav-area2 {
+	font-family: poppins;
+	position:relative;
+	top:6.7%;
+	background: #66b5ff;
+	height: 35px;
+	justify-content: space-evenly;
+	
+}
+.nav-area2:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.nav-area2 ul {
+	list-style: none;
+	margin: 0;
+	
+}
+.nav-area2>ul>li {
+	justify-content: space-evenly;
+	float: left;
+	position: relative;
+	left:10%;
+}
+.nav-area2 ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 17px;
+	display: block;
+	
+}
+.nav-area2 ul li:hover a {
+	
+	background: #34495e;
+}
+.nav-area2 ul ul {
+	position: absolute;
+	padding: 0;
+	min-width: 160px;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+.nav-area2 ul li:hover>ul {
+
+	display: block;
+	
+}
+.nav-area2 ul ul li:hover a {
+	background: #262626;
+}
+.nav-area2 ul ul li {
+	position: relative;
+}
+.nav-area2 ul ul ul {
+	top: 0;
+	left: 100%;
+}
+.nav-area2 ul ul ul li:hover a {
+	
+	background: #34495e;
+}
+
+
+.zero{
+	position:flex;
+	top:2%;
+	height: 7%;
+	background:white;
+	
+}
+
+.container{
+	margin: 10px 40px;
+	position:flex;
+	height:25%;
+	display: flex;
+	justify-content: space-evenly;
+	}
+	
+.container_2{
+	margin: 5px 40px;
+}
+
+
+.field8{
+	position: absolute;
+	left:5.6%;
+}
+
+.field9{
+	position: absolute;
+	left:28.4%;
+}
+
+.field{
+	border-radius: 25px;
+	background-color:;
+	height:150px;
+	width:280px;
+	float: left;
+	margin: 15px;
+	
+}
+
+.field img{
+	position:relative;
+	top:15%;
+	left: 35%;
+	
+}
+
+.field a{
+	position:relative;
+	
+	text-decoration:none;
+	
+	
+}
+
+.field a#f1{
+	top:28%;
+	right:13%;
+
+}
+
+.field a#f2{
+	top:28%;
+	right:12%;
+
+}
+
+.field a#f3{
+	top:28%;
+	right:8%;
+
+}
+
+.field a#f4{
+	top:28%;
+	right:8%;
+
+}
+
+.field a#f5{
+	top:28%;
+	right:12%;
+
+}
+
+.field a#f6{
+	top:28%;
+	right:10%;
+
+}
+
+.field a#f7{
+	top:28%;
+	right:3%;
+
+}
+
+.field a#f8{
+	top:28%;
+	left:2%;
+
+}
+
+.field a#f9{
+	top:28%;
+	right:4%;
+
+}
+
+.field a#f10{
+	top:28%;
+	right:1%;
+
+}
+
+.forms embed#one{
+float:right;
+	margin-top:20px;
+	margin-right:1%;
+}
+
+.forms embed#two,
+.forms embed#four{
+
+	margin-top:20px;
+	
+}
+
+.forms embed#three{
+	float:right;
+	margin-top:20px;
+	margin-right:1%;
+}
